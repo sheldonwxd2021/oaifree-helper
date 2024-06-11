@@ -150,7 +150,7 @@ at_2
      FreeWebName //选车上车页的站点名
      FreeWebIntro //选车上车页的简介，可用html代码插入文本、超链接等
      ```
-   - 如需修改用户的默认用量限制等，请修改worker的`getShareToken`函数，内有详细注释
+   - 如需修改用户的默认用量限制等，请修改worker的`getShareToken`函数，内有详细注释（建议在GitHub fork的项目内修改，避免代码同步导致改动丢失）
 
 ### 9. About
    - 本服务实质是Token储存和分发，所有功能和实际服务都基于始皇大神的付出。再次向大神致敬！
